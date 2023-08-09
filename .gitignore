@@ -1,0 +1,58 @@
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
+
+# Build and Dependencies
+build/
+out/
+/target
+/lib
+/classes
+/checkouts
+
+# Compiled
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.metadata/
+*.recommenders/
+*.settings/
+
+# Server
+.lsp/
+.clj-kondo/
+.cpcache/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+Desktop.ini
+*.swp
+*.bak
+*~
+.directory
+
+# Log and temporary files
+*.log
+/logs/
+*.tmp
+
+# REPL history
+.repl-history
+.rebel_readline_history
